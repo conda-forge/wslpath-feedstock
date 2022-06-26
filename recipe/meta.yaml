@@ -1,5 +1,5 @@
 {% set name = "wslPath" %}
-{% set version = "0.2.3" %}
+{% set version = "0.3.1" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/wslPath-{{ version }}.zip
-  sha256: 92e8473a7c95e1ae87e9f04ac819fd2385b20c170818d6b69fd66f26d584530f
+  sha256: da0dc8efebec4966565366854b6530de5585d3a7c871cb0b039a2a1ac9bb9155
 
 build:
   noarch: python
